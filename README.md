@@ -2,9 +2,7 @@
 
 ⌨️ Some keyboards designed by myself.
 
-[![Author](https://img.shields.io/badge/Author-HAIZAKURA-b68469?style=flat-square)](https://nya.run)
-
-[![License](https://img.shields.io/github/license/HAIZAKURA/my-keyboard?style=flat-square)](./LICENSE)
+[![Author](https://img.shields.io/badge/Author-HAIZAKURA-b68469?style=flat-square)](https://nya.run) [![License](https://img.shields.io/github/license/HAIZAKURA/my-keyboard?style=flat-square)](./LICENSE)
 
 ## NanoPad 16
 
