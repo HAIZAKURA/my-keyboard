@@ -34,26 +34,26 @@
 
 ### BOM
 
-| Name       | LCSC PN  | Qty | Package            | Value              | Description        |
-| ---------- | -------- | --- | ------------------ | ------------------ | ------------------ |
-| C1         | C333838  | 1   | CAP-TH_L7.2-W2.5   | 100nF              | Capacitance        |
-| C2         | C88759   | 1   | CAP-TH_BD5.0-P2.00 | 4.7uF              | Capacitance        |
-| C3, C4     | C278005  | 2   | CAP-TH_L6.5-W3.5   | 22pF               | Capacitance        |
-| D**        | C402212  | 16  | DO-35              | 1N4148             | Switch Diode       |
-| FUSE       | C20831   | 1   | FUSE-TH_L7.8-W3.0  | 6V 1.1A            | Resettable Fuse    |
-| LED1, LED2 |          | 2   | 0805               | LED                | SMD LED (opt.)     |
-| MCU        | C33901   | 1   | DIP-28             | ATMEGA328P-PU      | MCU                |
-| R1, R5     | C714010  | 2   | RES-TH_BD2.3-L6.5  | 5.1kΩ              | Resistor           |
-| R2         | C120059  | 1   | RES-TH_BD2.3-L6.5  | 1.5kΩ              | Resistor           |
-| R3, R4     | C713975  | 2   | RES-TH_BD2.3-L6.5  | 68Ω                | Resistor           |
-| R6         | C410695  | 1   | RES-TH_BD2.3-L6.5  | 10kΩ               | Resistor           |
-| R7         | C410696  | 1   | RES-TH_BD2.3-L6.5  | 1kΩ                | Resistor           |
-| RGB**      |          | 16  | 3528               | WS2812             | RGB LED            |
-| SW1, SW2   | C2888948 | 2   | SMD                | TSB001A3512A       | DIP Switch         |
-| U1         | C72125   | 1   | DIP-28_L35.6-W10.2 | DS1009-28AT1NS-0A2 | IC Connector       |
-| USB        | C720630  | 1   | SMD                | TYPEC-304S-ACP16   | 16 Pins USB-C      |
-| U**        |          | 16  | SMD                | Kailh              | Hot Plug Connector |
-| X1         | C16212   | 1   | OSC-TH_L10.0-W4.5  | 16MHz              | Crystal            |
+| Name       | LCSC PN  | Qty | Package           | Value              | Description        |
+| ---------- | -------- | --- | ----------------- | ------------------ | ------------------ |
+| C1         | C333838  | 1   | CAP-TH_L7.2-W2.5  | 100nF              | Capacitance        |
+| C2         | C88759   | 1   | CAP-TH_BD5.0      | 4.7uF              | Capacitance        |
+| C3, C4     | C278005  | 2   | CAP-TH_L6.5-W3.5  | 22pF               | Capacitance        |
+| D**        | C402212  | 16  | DO-35             | 1N4148             | Switch Diode       |
+| FUSE       | C20831   | 1   | FUSE-TH_L7.8-W3.0 | 6V 1.1A            | Resettable Fuse    |
+| LED1, LED2 |          | 2   | 0805              | LED                | SMD LED (opt.)     |
+| MCU        | C33901   | 1   | DIP-28            | ATMEGA328P-PU      | MCU                |
+| R1, R5     | C714010  | 2   | RES-TH_BD2.3-L6.5 | 5.1kΩ              | Resistor           |
+| R2         | C120059  | 1   | RES-TH_BD2.3-L6.5 | 1.5kΩ              | Resistor           |
+| R3, R4     | C713975  | 2   | RES-TH_BD2.3-L6.5 | 68Ω                | Resistor           |
+| R6         | C410695  | 1   | RES-TH_BD2.3-L6.5 | 10kΩ               | Resistor           |
+| R7         | C410696  | 1   | RES-TH_BD2.3-L6.5 | 1kΩ                | Resistor           |
+| RGB**      |          | 16  | 3528              | WS2812             | RGB LED            |
+| SW1, SW2   | C2888948 | 2   | SMD               | TSB001A3512A       | DIP Switch         |
+| U1         | C72125   | 1   | DIP-28            | DS1009-28AT1NS-0A2 | IC Connector       |
+| USB        | C720630  | 1   | SMD               | TYPEC-304S-ACP16   | 16 Pins USB-C      |
+| U**        |          | 16  | SMD               | Kailh              | Hot Plug Connector |
+| X1         | C16212   | 1   | HC-49S            | 16MHz              | Crystal            |
 
 ## Author
 
