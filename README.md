@@ -41,7 +41,7 @@
 | C3, C4     | C278005  | 2   | CAP-TH_L6.5-W3.5   | 22pF               | Capacitance        |
 | D**        | C402212  | 16  | DO-35              | 1N4148             | Switch Diode       |
 | FUSE       | C20831   | 1   | FUSE-TH_L7.8-W3.0  | 6V 1.1A            | Resettable Fuse    |
-| LED1, LED2 |          | 2   | 0805               | LED                | SMD LED            |
+| LED1, LED2 |          | 2   | 0805               | LED                | SMD LED (opt.)     |
 | MCU        | C33901   | 1   | DIP-28             | ATMEGA328P-PU      | MCU                |
 | R1, R5     | C714010  | 2   | RES-TH_BD2.3-L6.5  | 5.1kΩ              | Resistor           |
 | R2         | C120059  | 1   | RES-TH_BD2.3-L6.5  | 1.5kΩ              | Resistor           |
