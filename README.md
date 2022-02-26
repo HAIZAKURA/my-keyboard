@@ -14,7 +14,7 @@
 
 - Hot Plug Switches
 
-- QMK Firmware [*Build yourself*](https://github.com/HAIZAKURA/my-keyboard/tree/main/nanopad16_retro/qmk/keyboards/haizakura/nanopad16_retro)
+- QMK Firmware [*Build by yourself*](https://github.com/HAIZAKURA/my-keyboard/tree/main/nanopad16_retro/qmk/keyboards/haizakura/nanopad16_retro)
 
 - Vial Compatible [*See how to use*](https://get.vial.today/docs/porting-to-via.html#done)
 
