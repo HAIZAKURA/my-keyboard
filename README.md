@@ -16,7 +16,7 @@
 
 - QMK Firmware
 
-- Vial Compatible
+- Vial Compatible  [*See how to use*](https://get.vial.today/docs/porting-to-via.html#done)
 
 - Retro Style
 
