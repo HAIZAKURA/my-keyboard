@@ -1,5 +1,11 @@
 # My Keyboard
 
+⌨️ Some keyboards designed by myself.
+
+[![Author](https://img.shields.io/badge/Author-HAIZAKURA-b68469?style=flat-square)](https://nya.run)
+
+[![License](https://img.shields.io/github/license/HAIZAKURA/my-keyboard?style=flat-square)](./LICENSE)
+
 ## NanoPad 16
 
 > Under development...
@@ -28,4 +34,13 @@
 
 ![BOTTOM](./nanopad16_retro/hardware/bottom.svg)
 
- 
+ ## Author
+
+**my-keyboard** © [HAIZAKURA](https://nya.run), Released under the [MIT](./LICENSE) License.
+
+> [Personal Website](https://nya.run) · GitHub [@HAIZAKURA](https://github.com/HAIZAKURA) · Twitter [@haizakura_0v0](https://twitter.com/haizakura_0v0) · Telegram [@haizakura](https://t.me/haizakura)
+
+## Thanks
+
+**qmk_firmware** © [GitHub](https://github.com/qmk/qmk_firmware), Released under the [GNU GENERAL PUBLIC LICENSE](https://github.com/qmk/qmk_firmware/blob/master/LICENSE) License.
+
