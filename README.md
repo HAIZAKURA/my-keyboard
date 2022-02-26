@@ -42,5 +42,7 @@
 
 ## Thanks
 
-**qmk_firmware** © [GitHub](https://github.com/qmk/qmk_firmware), Released under the [GNU GENERAL PUBLIC LICENSE](https://github.com/qmk/qmk_firmware/blob/master/LICENSE) License.
+**qmk_firmware** © [GitHub](https://github.com/qmk/qmk_firmware), Released under the [GNU GENERAL PUBLIC](https://github.com/qmk/qmk_firmware/blob/master/LICENSE) License.
+
+**vial-qmk** © [GitHub](https://github.com/vial-kb/vial-qmk), Released under the [GNU GENERAL PUBLIC](https://github.com/qmk/https://github.com/vial-kb/vial-qmk/blob/vial/LICENSE) License.
 
