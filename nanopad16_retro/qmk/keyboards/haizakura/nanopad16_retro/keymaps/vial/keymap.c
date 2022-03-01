@@ -37,19 +37,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
   )
 };
-
-bool dip_switch_update_user(uint8_t index, bool active) {
-  switch (index) {
-    case 0:
-      if (active) {
-        tap_code(KC_AUDIO_MUTE);
-      }
-      break;
-    case 1:
-      if (active) {
-        rgblight_toggle();
-      }
-      break;
-  }
-  return true;
-};
