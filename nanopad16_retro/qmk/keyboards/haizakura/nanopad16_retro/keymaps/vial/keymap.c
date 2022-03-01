@@ -47,7 +47,7 @@ bool dip_switch_update_user(uint8_t index, bool active) {
       break;
     case 1:
       if (active) {
-        tap_code(RGB_TOG);
+        rgblight_toggle();
       }
       break;
   }
