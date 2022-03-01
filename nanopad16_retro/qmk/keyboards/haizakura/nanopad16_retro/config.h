@@ -55,9 +55,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* RGB LED Conversion macro from physical array to electric array */
 #define LED_LAYOUT( \
     L00, L01, L02, L03,  \
-    L10, L11, L12, L13,  \
+    L13, L12, L11, L10,  \
     L20, L21, L22, L23,  \
-    L30, L31, L32, L33 ) \
+    L33, L32, L31, L30 ) \
   { \
     L00, L01, L02, L03,  \
     L13, L12, L11, L10,  \
