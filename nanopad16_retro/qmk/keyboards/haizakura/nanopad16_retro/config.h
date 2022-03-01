@@ -52,3 +52,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 
+/* RGB LED Conversion macro from physical array to electric array */
+#define LED_LAYOUT( \
+    L00, L01, L02, L03,  \
+    L10, L11, L12, L13,  \
+    L20, L21, L22, L23,  \
+    L30, L31, L32, L33 ) \
+  { \
+    L00, L01, L02, L03,  \
+    L13, L12, L11, L10,  \
+    L20, L21, L22, L23,  \
+    L33, L32, L31, L30   \
+  }
+
+/* RGB LED logical order map */
+#define RGBLIGHT_LED_MAP LED_LAYOUT( \
+   0,  1,  2,  3,  \
+   4,  5,  6,  7,  \
+   8,  9, 10, 11,  \
+  12, 13, 14, 15 )
