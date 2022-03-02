@@ -44,7 +44,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define TAP_CODE_DELAY 10
 
 /* Underglow options */
-#define RGB_DI_PIN D4
+#define RGB_DI_PIN B2
 #define RGBLED_NUM 16
 #define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_LIMIT_VAL 128
