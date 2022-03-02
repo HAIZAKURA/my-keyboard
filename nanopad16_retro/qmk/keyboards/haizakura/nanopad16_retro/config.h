@@ -41,13 +41,15 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
-// #define TAP_CODE_DELAY 10
-
 /* Underglow options */
-#define RGB_DI_PIN B2
-#define RGBLED_NUM 16
-#define RGBLIGHT_ANIMATIONS
-#define RGBLIGHT_LIMIT_VAL 128
-#define RGBLIGHT_HUE_STEP 8
-#define RGBLIGHT_SAT_STEP 8
-#define RGBLIGHT_VAL_STEP 8
+#define RGB_DI_PIN D4
+#ifdef RGB_DI_PIN
+  #define RGBLED_NUM 16
+  #define RGBLIGHT_HUE_STEP 8
+  #define RGBLIGHT_SAT_STEP 8
+  #define RGBLIGHT_VAL_STEP 8
+  #define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
+  #define RGBLIGHT_SLEEP  /* If defined, the RGB lighting will be switched off when the host goes to sleep */
+  /*== all animations enable ==*/
+  #define RGBLIGHT_ANIMATIONS
+#endif
