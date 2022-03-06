@@ -2,7 +2,7 @@
     "name": "NanoPad 16 Retro",
     "vendorId": "0xFEED",
     "productId": "0x0002",
-    "lighting": "none",
+    "lighting": "qmk_rgblight",
     "matrix": {
         "rows": 5,
         "cols": 4
