@@ -27,15 +27,32 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT      NanoPad 16
 
 /* key matrix size */
-#define MATRIX_ROWS 4
+#define MATRIX_ROWS 5
 #define MATRIX_COLS 4
 
 /* nanopad16 PCB default pin-out */
-#define MATRIX_ROW_PINS { A4, A5, A6, A7 }
-#define MATRIX_COL_PINS { A0, A1, A2, A3 }
+#define MATRIX_ROW_PINS { B5, B6, B7, B8, B9 }
+#define MATRIX_COL_PINS { A14, A15, B3, B4 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
-#define TAP_CODE_DELAY 10
+/* Set 0 if debouncing isn't needed */
+#define DEBOUNCE 5
+
+/* Underglow options */
+#define RGB_DI_PIN A13
+#ifdef RGB_DI_PIN
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 16
+#define RGBLIGHT_LIMIT_VAL 255
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+#endif
+
+/* Encoder */
+#define ENCODERS_PAD_A { B13 }
+#define ENCODERS_PAD_B { B12 }
+#define ENCODER_RESOLUTION 4
