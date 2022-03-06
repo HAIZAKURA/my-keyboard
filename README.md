@@ -12,7 +12,7 @@
 
 - ATMEGA328P
 
-- DIP Switches
+- 4 DIP Switches
 
 - Hot Plug Switches
 
