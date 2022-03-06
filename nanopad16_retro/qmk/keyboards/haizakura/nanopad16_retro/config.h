@@ -48,5 +48,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
 #define RGBLIGHT_LIMIT_VAL 255
-#define RGBLIGHT_DEFAULT_MODE RGBLIGHT_MODE_BREATHING
 #define RGBLIGHT_ANIMATIONS
