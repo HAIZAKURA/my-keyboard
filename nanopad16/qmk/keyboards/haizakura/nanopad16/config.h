@@ -42,19 +42,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBOUNCE 5
 
 // The pin connected to the data pin of the LEDs
-#define RGB_DI_PIN B1
+#define RGB_DI_PIN B12
 #define RGBLED_NUM 16
+#define RGBLIGHT_ANIMATIONS
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
-#define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
-#define RGBLIGHT_ANIMATIONS
-
-#define WS2812_PWM_DRIVER PWMD3
-#define WS2812_PWM_CHANNEL 4
-#define WS2812_PWM_PAL_MODE 2
-#define WS2812_DMA_STREAM STM32_DMA1_STREAM2
-#define WS2812_DMA_CHANNEL 5
 
 /* Encoder */
 #define ENCODERS_PAD_A { B8 }
