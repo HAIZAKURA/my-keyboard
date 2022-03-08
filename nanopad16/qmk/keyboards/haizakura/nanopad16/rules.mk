@@ -17,3 +17,4 @@ UNICODE_ENABLE = yes        # Unicode
 RGBLIGHT_ENABLE = yes       # Enable RGB underlight
 ENCODER_ENABLE = yes        # Enable encoder
 KEYBOARD_SHARED_EP = yes    # USB Endpoint Limitations
+WS2812_DRIVER = pwm
