@@ -23,16 +23,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID    0xFEED
 #define PRODUCT_ID   0x0001
 #define DEVICE_VER   0x0001
-#define MANUFACTURER HAIZAKURA
-#define PRODUCT      NanoPad 16
+#define MANUFACTURER "HAIZAKURA"
+#define PRODUCT      "NanoPad 16"
 
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 4
 
 /* nanopad16 PCB default pin-out */
-#define MATRIX_ROW_PINS { B5, B6, B7, B8, B9 }
-#define MATRIX_COL_PINS { A14, A15, B3, B4 }
+#define MATRIX_ROW_PINS { B3, B4, B5, B6, B7 }
+#define MATRIX_COL_PINS { B13, B14, B15, A8 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
@@ -41,18 +41,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
-/* Underglow options */
-#define RGB_DI_PIN A13
+// The pin connected to the data pin of the LEDs
+#define RGB_DI_PIN B12
+
 #ifdef RGB_DI_PIN
-#define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 16
-#define RGBLIGHT_LIMIT_VAL 255
 #define RGBLIGHT_HUE_STEP 8
 #define RGBLIGHT_SAT_STEP 8
 #define RGBLIGHT_VAL_STEP 8
+#define RGBLIGHT_LIMIT_VAL 255 /* The maximum brightness level */
+#define RGBLIGHT_ANIMATIONS
 #endif
 
 /* Encoder */
-#define ENCODERS_PAD_A { B13 }
-#define ENCODERS_PAD_B { B12 }
+#define ENCODERS_PAD_A { B8 }
+#define ENCODERS_PAD_B { B9 }
 #define ENCODER_RESOLUTION 4
