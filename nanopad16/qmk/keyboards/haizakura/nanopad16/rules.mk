@@ -1,8 +1,8 @@
 # MCU name
-MCU = STM32F103
+MCU = STM32F401
 
 # Bootloader selection
-BOOTLOADER = stm32duino
+BOOTLOADER = stm32-dfu
 
 # Build Options
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
@@ -14,5 +14,6 @@ NKRO_ENABLE = yes           # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 UNICODE_ENABLE = yes        # Unicode
-RGBLIGHT_ENABLE = yes       # Enable WS2812 RGB underlight
+RGBLIGHT_ENABLE = yes       # Enable RGB underlight
 ENCODER_ENABLE = yes        # Enable encoder
+KEYBOARD_SHARED_EP = yes    # USB Endpoint Limitations
