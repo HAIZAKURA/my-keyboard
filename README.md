@@ -10,7 +10,7 @@
 
 ## NanoPad 16 Retro
 
-- ATMEGA328P
+- ATMEGA328P-PU
 
 - 16 Keys
 
@@ -36,7 +36,7 @@
 
 ## NanoPad 9
 
-- ATMEGA32U2
+- ATMEGA32U2-MU
 
 - 9 Keys
 
