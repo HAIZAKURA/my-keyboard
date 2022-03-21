@@ -1,0 +1,20 @@
+{
+  "keyboard_name": "NanoPad 9",
+  "maintainer": "haizakura",
+  "url": "https://github.com/HAIZAKURA/my-keyboard",
+  "layouts": {
+    "LAYOUT": {
+      "layout": [
+        { "label": "1", "matrix": [0, 0], "w": 1, "x": 0, "y": 0 },
+        { "label": "2", "matrix": [0, 1], "w": 1, "x": 1, "y": 0 },
+        { "label": "3", "matrix": [0, 2], "w": 1, "x": 2, "y": 0 },
+        { "label": "5", "matrix": [1, 0], "w": 1, "x": 0, "y": 1 },
+        { "label": "6", "matrix": [1, 1], "w": 1, "x": 1, "y": 1 },
+        { "label": "7", "matrix": [1, 2], "w": 1, "x": 2, "y": 1 },
+        { "label": "9", "matrix": [2, 0], "w": 1, "x": 0, "y": 2 },
+        { "label": "0", "matrix": [2, 1], "w": 1, "x": 1, "y": 2 },
+        { "label": "+", "matrix": [2, 2], "w": 1, "x": 2, "y": 2 }
+      ]
+    }
+  }
+}
