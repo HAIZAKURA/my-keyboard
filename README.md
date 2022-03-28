@@ -34,6 +34,34 @@
 
 ![BOTTOM](./nanopad16_retro/hardware/bottom.svg)
 
+## NanoPad 16 Retro RGB
+
+- ATMEGA328P-PU
+
+- 16 Keys
+
+- 2 DIP Switches
+
+- RGB Lighting with WS2812B
+
+- Hot Plug Switches
+
+- QMK Firmware [*Build by yourself*](https://github.com/HAIZAKURA/my-keyboard/tree/main/nanopad16_retro_rgb/qmk/keyboards/haizakura/nanopad16_retro_rgb)
+
+- Vial Compatible [*See how to use*](https://get.vial.today/docs/porting-to-via.html#done)
+
+- Retro Style
+
+- [Project Files](https://github.com/HAIZAKURA/my-keyboard/tree/main/nanopad16_retro_rgb/hardware)
+
+### Top
+
+![TOP](./nanopad16_retro_rgb/hardware/top.svg)
+
+### Bottom
+
+![BOTTOM](./nanopad16_retro_rgb/hardware/bottom.svg)
+
 ## NanoPad 9
 
 - ATMEGA32U2-MU
